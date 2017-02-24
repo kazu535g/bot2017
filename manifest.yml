@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bot2017
+  host: bot2017
+  disk_quota: 1024M
+  services:
+  - bot2017-cloudantNoSQLDB
